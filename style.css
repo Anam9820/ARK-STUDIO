@@ -4,31 +4,35 @@ body{
 .top{
     display: flex;
     justify-content: space-between;
+    background-color: white;
+    opacity: 0.5;
 }
 .logo-img{
-    margin-left: 50px;
+    margin-left: 60px;
 }
 .navbar ul{
     list-style-type: none;
     display: flex;
     margin: 30px;
+    
 }
 .navbar ul li{
     margin: 10px;
     
 }
+
+    
 .bottom{
     display: flex;
     justify-content: space-between;
     position: relative;
-    bottom: 70px;
-    background-color: aquamarine;
-    opacity: 0.6;
+    bottom: 50px;
+    background-color: white;
+    opacity: 0.5;
 }
-.bottom-item2{
-   padding: 25px;
+
    
-}
+
 .background{
     background-image: url(images/billboard.jpg);
     height: 100vh;

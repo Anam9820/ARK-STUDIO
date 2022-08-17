@@ -61,3 +61,24 @@ h2{
     flex-direction: row;
     margin: 50px;
 }
+.flex-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 200px 20px 200px;
+}
+.grid-container3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 50px;
+    background-color: black;
+   
+}
+.grid-item3{
+    text-align: center;
+    color: white;
+    padding: 90px;
+}
+.list{
+    list-style-type: none;
+    padding: 20px;
+}

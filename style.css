@@ -70,6 +70,12 @@ h2{
     background-color: grey;
     background-size: 100px;
 }
+.flex-bottom2{
+    padding: 10px;
+}
+.flex-bottom1{
+    padding: 10px;
+}
 .grid-container3{
     display: grid;
     grid-template-columns: auto auto auto auto;

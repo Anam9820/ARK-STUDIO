@@ -1,5 +1,5 @@
 body{
-    margin: 10px;
+    margin: 0px;
 }
 .top{
     display: flex;
@@ -13,7 +13,7 @@ body{
 .navbar ul{
     list-style-type: none;
     display: flex;
-    margin: 30px;
+    margin: 40px;
     
 }
 .navbar ul li{
@@ -59,7 +59,6 @@ h2{
 .flex-container{
     display: flex;
     flex-direction: row;
-    margin: 50px;
 }
 .flex-bottom{
     display: flex;
@@ -80,7 +79,6 @@ h2{
 .grid-container3{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    margin: 50px;
     background-color: black;
    
 }
@@ -98,31 +96,4 @@ h2{
     color: white;
     position: relative;
     bottom: 100px;
-}
-@media (min-width :600px) and (max-width :600px){
-    body{
-        margin: 20px;
-    }
-    .grid-container{
-        display: grid;
-        grid-template-columns: auto;
-        margin: 10px 200px 10px 200px;
-    }
-    .flex-container{
-        display: flex;
-        flex-direction: row;
-        margin: 10px;
-    }
-    .grid-container3{
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        margin: 100px;
-        background-color: black;
-    }
-    .grid-item3{
-        text-align: center;
-        color: white;
-        padding: 50px;
-        line-height: 1.6;
-    }
 }
